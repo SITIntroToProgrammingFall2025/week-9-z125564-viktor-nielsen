@@ -50,7 +50,7 @@ int main(void)
     }
 
 
-    printf("The nearest color is:%s\n", names[min_index]);
+    printf("The nearest color is %s\n", names[min_index]);
 
     return 0;
 }
