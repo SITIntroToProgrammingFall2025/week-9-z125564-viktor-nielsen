@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void)
-{   int rgb[2];
+{   int rgb[3];
     int r, g, b;
     double r_first_digit;
 
