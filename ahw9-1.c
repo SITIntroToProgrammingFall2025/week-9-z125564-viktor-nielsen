@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// squared distance between two RGB colors
 int sq_dist(int r1, int g1, int b1,
             int r2, int g2, int b2)
 {
@@ -26,11 +25,11 @@ int main(void)
     };
 
     const char *names[5] = {
-        "black",
-        "red",
-        "green",
-        "blue",
-        "white"
+        "Black",
+        "Red",
+        "Green",
+        "Blue",
+        "White"
     };
 
 
@@ -51,7 +50,7 @@ int main(void)
     }
 
 
-    printf("%s\n", names[min_index]);
+    printf("The nearest color is:%s\n", names[min_index]);
 
     return 0;
 }
