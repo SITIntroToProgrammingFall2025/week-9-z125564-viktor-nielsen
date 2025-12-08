@@ -20,7 +20,7 @@ int main(void)
     }
 
     for (i = 0; i < 5; i++) {
-        printf("%d ", array[i]);
+        printf("sorted array:\n%d ", array[i]);
     }
 
     return 0;
