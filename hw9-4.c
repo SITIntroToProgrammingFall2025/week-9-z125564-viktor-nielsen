@@ -9,5 +9,5 @@ int main(void)
     {
         scanf("%d", &rgb[i]);
     }
-    printf("The hex code is #%X%X%X", rgb[0], rgb[1], rgb[2]);
+    printf("The hex code is #%02X%02X%02X", rgb[0], rgb[1], rgb[2]);
 }
