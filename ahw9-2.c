@@ -19,8 +19,9 @@ int main(void)
         }
     }
 
+    printf("sorted array:\n");
     for (i = 0; i < 5; i++) {
-        printf("sorted array:\n%d ", array[i]);
+        printf("%d ", array[i]);
     }
 
     return 0;
